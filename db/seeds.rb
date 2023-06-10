@@ -1,3 +1,5 @@
+Movie.destroy_all
+
 movies = [
   "batman",
   "superman",
@@ -5,7 +7,10 @@ movies = [
   "wonder woman",
   "thor",
   "black panther",
-  "avengers"
+  "avengers",
+  "harry potter",
+  "star wars",
+  "lord of the rings"
 ]
 
 movies.each do |movie|
